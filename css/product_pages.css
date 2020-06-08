@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Montserrat, sans-serif;
+    background: white;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);    
+    background: linear-gradient(
+        53deg,
+        #ccfffc,
+        #ffcccf
+    ); 
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#header-img {
+    margin-left: 40px;
+    
+}
+
+a {
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container img {
+    padding-top: 70px;
+}
+
+.header-left {
+    padding-right: 40px; 
+    width: 60%;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 1200;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 1000;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+iframe {
+    margin-bottom: 100px;
+}
+
+#video-text {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-color {
+    background: #DC7F70;
+}
+
+form {
+    margin-bottom: 30px;
+  }
+  
+form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+form input[type="email"] {
+    color: black;
+    font-size: 14px;
+    flex: 1;
+    size: 1;
+    padding: 5px 15px;
+    max-width: 300px;    
+}
+
+footer {
+    background-color: black;
+    color: #DC7F70;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {   
+}
